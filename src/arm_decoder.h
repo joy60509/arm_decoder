@@ -2,7 +2,6 @@
 #define __ARM_DECODER_H__
 
 #include "cpsr.h"
-#include "log.h"
 
 static inline void unknown_decoder(uint64_t unknown_value)
 {
